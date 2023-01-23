@@ -5,3 +5,58 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: darkgray;
+    font-size: 1.5rem;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2.7rem;
+    padding-left: 30px;
+}
+
+section.normal-bg {
+    background-color: white;
+}
+
+section.image-bg > p {
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 400px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: sticky;
+}
+
