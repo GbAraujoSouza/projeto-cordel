@@ -20,17 +20,22 @@ body {
     background-color: darkgray;
     font-size: 1.5rem;
     min-height: 100vh;
+    font-family: var(--font1);
 }
 
 header {
     background-color: black;
     text-align: center;
     color: white;
+    
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
+    font-family: var(--font2);
+    letter-spacing: 4px;
 }
 
 header > p {
@@ -40,8 +45,10 @@ header > p {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2.7rem;
+    line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 5vw;
 }
 
 section.normal-bg {
@@ -50,7 +57,7 @@ section.normal-bg {
 
 section.image-bg > p {
     background-color: rgba(0, 0, 0, 0.295);
-    width: 400px;
+    display: inline-block;
 }
 
 a {
