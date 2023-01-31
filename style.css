@@ -57,13 +57,28 @@ section > p {
 
 section.normal-bg {
     background-color: white;
+    background-size: cover;
+}
+
+section.image-bg {
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
 }
 
 section.image-bg > p {
     background-color: rgba(0, 0, 0, 0.295);
     display: inline-block;
+    color: white;
+    padding: 5px;
 }
 
+section#img01 {
+    background-image: url("imagens/background001.jpg");
+    background-position: right center;
+}
+section#img02 {
+    background-image: url("imagens/background002.jpg");
+}
 a {
     color: white;
     text-decoration: none;
